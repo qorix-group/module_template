@@ -1,3 +1,4 @@
+
 # C++ & Rust Bazel Template Repository
 
 This repository serves as a **template** for setting up **C++ and Rust projects** using **Bazel**.
@@ -18,10 +19,12 @@ It provides a **standardized project structure**, ensuring best practices for:
 | `README.md`                         | Short description & build instructions            |
 | `src/`                              | Source files for the module                       |
 | `tests/`                            | Unit tests (UT) and integration tests (IT)        |
+| `examples/`                         | Example files used for guidance                   |
 | `docs/`                             | Documentation (Doxygen for C++ / mdBook for Rust) |
 | `.github/workflows/`                | CI/CD pipelines                                   |
 | `.vscode/`                          | Recommended VS Code settings                      |
 | `.bazelrc`, `MODULE.bazel`, `BUILD` | Bazel configuration & settings                    |
+| `project_config.bzl`                | Project-specific metadata for Bazel macros        |
 | `LICENSE.md`                        | Licensing information                             |
 | `CONTRIBUTION.md`                   | Contribution guidelines                           |
 
@@ -38,7 +41,7 @@ cd YOUR_PROJECT
 
 ### 2️⃣ Build the Examples of module
 
-> DISCLAMER: Depending what module implements, it's possible that different
+> DISCLAIMER: Depending what module implements, it's possible that different
 > configuration flags needs to be set on command line.
 
 To build all targets of the module the following command can be used:
@@ -82,3 +85,30 @@ The template integrates **tools and linters** from **centralized repositories** 
 ## 📖 Documentation
 
 - A **centralized docs structure** is planned.
+
+---
+
+## ⚙️ `project_config.bzl`
+
+This file defines project-specific metadata used by Bazel macros, such as `dash_license_checker`.
+
+### 📌 Purpose
+
+It provides structured configuration that helps determine behavior such as:
+
+- Source language type (used to determine license check file format)
+- Safety level or other compliance info (e.g. ASIL level)
+
+### 📄 Example Content
+
+```python
+PROJECT_CONFIG = {
+    "asil_level": "QM",  # or "ASIL-A", "ASIL-B", etc.
+    "source_code": ["cpp", "rust"]  # Languages used in the module
+}
+```
+
+### 🔧 Use Case
+
+When used with macros like `dash_license_checker`, it allows dynamic selection of file types
+ (e.g., `cargo`, `requirements`) based on the languages declared in `source_code`.
