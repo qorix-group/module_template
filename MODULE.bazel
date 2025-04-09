@@ -10,7 +10,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
-module(name = "cpp_rust_template_repository", version = "1.0")
+module(
+    name = "cpp_rust_template_repository",
+    version = "1.0",
+)
 
 # Add GoogleTest dependency
 bazel_dep(name = "googletest", version = "1.14.0")
@@ -39,3 +42,8 @@ register_toolchains("@llvm_toolchain//:all")
 
 # Dash license checker
 bazel_dep(name = "dash_license_checker", version = "0.1.0")
+
+# Format checker
+bazel_dep(name = "score_format_checker", version = "0.1.0")
+bazel_dep(name = "aspect_rules_lint", version = "1.0.3")
+bazel_dep(name = "buildifier_prebuilt", version = "7.3.1")
