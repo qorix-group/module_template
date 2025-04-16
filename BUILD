@@ -10,8 +10,8 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
-load("@score_dash_license_checker//:dash.bzl", "dash_license_checker")
 load("@score_cr_checker//:cr_checker.bzl", "copyright_checker")
+load("@score_dash_license_checker//:dash.bzl", "dash_license_checker")
 load("@score_format_checker//:macros.bzl", "use_format_targets")
 load("//:project_config.bzl", "PROJECT_CONFIG")
 
