@@ -24,7 +24,7 @@ This documentation describes the structure, usage and configuration of the Bazel
 Overview
 --------
 
-This repository provides a standardized setup for projects using **C++** or **Rust** and **Bazel** as a buidl system.
+This repository provides a standardized setup for projects using **C++** or **Rust** and **Bazel** as a build system.
 It integrates best practices for build, test, CI/CD and documentation.
 
 Requirements

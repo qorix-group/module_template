@@ -50,8 +50,3 @@ dash_license_checker(
 
 # Add target for formatting checks
 use_format_targets()
-
-
-#target for documnetation build
-
-load("@score_docs_as_code//docs.bzl", "docs")
