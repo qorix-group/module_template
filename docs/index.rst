@@ -31,7 +31,7 @@ Requirements
 ------------
 
 .. stkh_req:: Example Functional Requirement
-   :id: stkh_req__docgen_enabled
+   :id: stkh_req__docgen_enabled__example
    :status: valid
    :safety: QM
    :reqtype: Functional
