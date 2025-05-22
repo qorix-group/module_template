@@ -31,5 +31,11 @@ on:
 jobs:
   build-docs:
     uses: eclipse-score/cicd-workflows/.github/workflows/docs.yml@main
+    permissions:
+      contents: write
+      pages: write
+      pull-requests: write
+      id-token: write
+
     with:
       retention-days: 3
