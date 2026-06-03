@@ -1,6 +1,5 @@
 **/Module.bazel
 .DS_Store
-.bazelversion
 .gitignore
 **/BUILD
 src/

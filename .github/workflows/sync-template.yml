@@ -13,6 +13,9 @@
 
 name: Sync with template
 on:
+  push:
+    branches: [main]
+    paths: [".bazelversion"]
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:
@@ -41,4 +44,4 @@ jobs:
           pr_commit_msg: "chore(template): upstream template update"
           git_user_name: eclipse-score-bot
           git_user_email: 187756813+eclipse-score-bot@users.noreply.github.com
-          template_sync_ignore_file_path: ".github/.templatesyncignore"
+          template_sync_ignore_file_path: ".github/templatesyncignore.txt"
