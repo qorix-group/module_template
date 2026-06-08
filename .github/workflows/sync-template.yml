@@ -13,9 +13,6 @@
 
 name: Sync with template
 on:
-  push:
-    branches: [main]
-    paths: [".bazelversion"]
   schedule:
     - cron: "0 0 1 * *"
   workflow_dispatch:
