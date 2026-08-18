@@ -14,8 +14,8 @@
 
 .. _component_detailed_design_template:
 
-Detailed Design
-###############
+[Component Name] Detailed Design
+================================
 
 .. attention::
 

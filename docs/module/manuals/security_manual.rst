@@ -12,12 +12,12 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Security Manual
-===============
+[Module Name] Security Manual
+=============================
 
 .. note:: Document header
 
-.. document:: [Your Module Name] Security Manual
+.. document:: [Module Name] Security Manual
    :id: doc__mod_temp_module_name_security_manual
    :status: draft
    :version: 1

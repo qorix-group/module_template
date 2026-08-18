@@ -14,10 +14,10 @@
 
 .. _detailed_design_example:
 
-Example: Detailed Design
-========================
+[Component Name] Detailed Design
+================================
 
-.. document:: [Your Component Name] Detailed Design
+.. document:: [Component Name] Detailed Design
    :id: doc__mod_temp_component_name_detailed_design
    :status: draft
    :version: 1
@@ -29,13 +29,12 @@ Example: Detailed Design
 .. attention::
     The above directive must be updated according to your Component.
 
-    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and followed by ``_detailed_design``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
 
-Detailed Design for Component: <Component Name>
-===============================================
+
 
 Description
 -----------

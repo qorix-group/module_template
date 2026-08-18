@@ -13,10 +13,10 @@
    # *******************************************************************************
 
 
-DFA (Dependent Failure Analysis)
-================================
+[Component Name] DFA (Dependent Failure Analysis)
+=================================================
 
-.. document:: [Your Component Name] DFA
+.. document:: [Component Name] DFA
    :id: doc__mod_temp_component_name_dfa
    :status: draft
    :version: 1
@@ -30,7 +30,7 @@ DFA (Dependent Failure Analysis)
 .. attention::
     The above directive must be updated according to your Component.
 
-    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and succeeded by ``_dfa``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs

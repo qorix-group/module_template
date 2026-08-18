@@ -14,10 +14,10 @@
 
 .. _user_manual:
 
-User Manual
-###########
+[Module Name] User Manual
+=========================
 
-.. document:: User Manual <module name>
+.. document:: [Module Name] User Manual
    :id: doc__user_manual
    :status: draft
    :version: 1

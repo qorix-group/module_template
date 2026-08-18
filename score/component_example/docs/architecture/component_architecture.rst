@@ -14,10 +14,10 @@
 
 .. _component_architecture:
 
-Component Architecture Documentation
-====================================
+[Component Name] Component Architecture Documentation
+=====================================================
 
-.. document:: [Your Component Name] Architecture
+.. document:: [Component Name] Architecture
    :id: doc__mod_temp_component_name_architecture
    :status: draft
    :version: 1
@@ -29,7 +29,7 @@ Component Architecture Documentation
 .. attention::
     The above directive must be updated according to your needs.
 
-    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and followed by ``_architecture``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
