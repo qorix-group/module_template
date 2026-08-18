@@ -35,7 +35,7 @@ DFA (Dependent Failure Analysis)
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
 
-The DFA for the feature [Feature Name] is performed. To show evidence that all failure initiators are considered, the applicability has to be filled out in the
+The DFA for the component [Component Name] is performed. To show evidence that all failure initiators are considered, the applicability has to be filled out in the
 following tables. For all applicable failure initiators, the DFA has to be performed.
 
 Dependent Failure Initiators
@@ -44,7 +44,7 @@ Dependent Failure Initiators
 Shared resources
 ^^^^^^^^^^^^^^^^
 
-The dependent failure initiators related to shared resources are not applicable for the features. The shared resources
+The dependent failure initiators related to shared resources are not applicable for the component. The shared resources
 will be considered in the platform DFA.
 
 Communication between the two elements
@@ -181,8 +181,9 @@ Unintended impacts to function due to various failures.
     - <yes | no>
     - <Rationale if not applicable, otherwise link to filled out DFA>
 
-Dependent Failure Initiators
-----------------------------
+DFA
+===
+For all identified applicable failure initiators, the DFA is performed in the following section.
 
 .. code-block:: rst
 
