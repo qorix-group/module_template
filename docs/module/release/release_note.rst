@@ -12,12 +12,12 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Release Note
-============
+[Module Name] Release Note
+==========================
 
 .. note:: Document header
 
-.. document:: [Your Module Name] Release Note
+.. document:: [Module Name] Release Note
    :id: doc__mod_temp_module_name_release_note
    :status: draft
    :version: 1

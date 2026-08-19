@@ -12,12 +12,12 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Security Package Formal Review Report
-=====================================
+[Module Name] Security Package Formal Review Report
+===================================================
 
 .. note:: Document header
 
-.. document:: [Your Module Name] Security Package Formal Review
+.. document:: [Module Name] Security Package Formal Review
   :id: doc__mod_temp_module_name_sec_pkg_fdr
   :status: draft
   :version: 1

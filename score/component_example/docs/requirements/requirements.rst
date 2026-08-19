@@ -12,10 +12,10 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Component <Name> Requirements
+[Component Name] Requirements
 #############################
 
-.. document:: [Your Component Name] Requirements
+.. document:: [Component Name] Requirements
    :id: doc__mod_temp_component_name_requirements
    :status: draft
    :version: 1
@@ -27,7 +27,7 @@ Component <Name> Requirements
 .. attention::
     The above directive must be updated according to your Component.
 
-    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and followed by ``_requirements``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs

@@ -13,7 +13,7 @@
    # *******************************************************************************
 
 
-.. document:: [Your Component Name] Requirements Inspection Checklist
+.. document:: [Component Name] Requirements Inspection Checklist
   :id: doc__mod_temp_component_name_req_inspection
   :status: draft
   :version: 2
@@ -25,13 +25,13 @@
 .. attention::
     The above directive must be updated according to your Component.
 
-    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in lower snake case preceded by ``doc__`` and followed by ``_req_inspection``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
-Requirement Inspection Checklist
-================================
+[Component Name] Requirement Inspection Checklist
+=================================================
 
 Purpose
 -------

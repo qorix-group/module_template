@@ -15,7 +15,7 @@
 [Feature Name] Architecture
 ===========================
 
-.. document:: [Your Feature Name] Architecture
+.. document:: [Feature Name] Architecture
    :id: doc__feature_example_architecture
    :status: draft
    :version: 1

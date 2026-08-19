@@ -12,12 +12,12 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Security Plan
-=============
+[Module Name] Security Plan
+===========================
 
 .. note:: Document header
 
-.. document:: [Your Module Name] Security Plan
+.. document:: [Module Name] Security Plan
   :id: doc__mod_temp_module_name_security_plan
   :status: draft
   :version: 1

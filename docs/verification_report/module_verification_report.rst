@@ -17,7 +17,7 @@ Verification Report
 
 .. note:: Document header
 
-.. document:: [Your Module Name] Verification Report
+.. document:: [Module Name] Verification Report
    :id: doc__mod_temp_module_name_verification_report
    :status: draft
    :version: 1

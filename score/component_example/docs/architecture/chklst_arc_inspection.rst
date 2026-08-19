@@ -13,7 +13,7 @@
    # *******************************************************************************
 
 
-.. document:: [Your Component Name] Architecture Inspection Checklist
+.. document:: [Component Name] Architecture Inspection Checklist
   :id: doc__mod_temp_component_name_arc_inspection
   :status: draft
   :version: 1
@@ -25,13 +25,13 @@
 .. attention::
     The above directive must be updated according to your component.
 
-    - Modify ``Your Component Name`` to be your component Name
+    - Modify ``Component Name`` to be your component Name
     - Modify ``id`` to be your component Name in lower snake case preceded by ``doc__`` and followed by ``_arc_inspection``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
-Architecture Inspection Checklist
-=================================
+[Component Name] Architecture Inspection Checklist
+==================================================
 
 Purpose
 -------

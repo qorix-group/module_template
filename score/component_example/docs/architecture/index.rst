@@ -14,8 +14,8 @@
 
 .. _component_architecture_template:
 
-Component Architecture
-======================
+[Component Name] Component Architecture
+=======================================
 
 .. toctree::
 

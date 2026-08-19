@@ -12,10 +12,10 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-AoU Component Requirements Template
-===================================
+[Component Name] AoU Component Requirements Template
+====================================================
 
-.. document:: [Your Component Name] Component AoU
+.. document:: [Component Name] Component AoU
    :id: doc__component_name_feat_aou
    :status: draft
    :version: 1
@@ -28,7 +28,7 @@ AoU Component Requirements Template
 .. attention::
     The above directive must be updated according to your Component.
 
-    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and followed by ``_comp_aou``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
