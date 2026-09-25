@@ -32,16 +32,16 @@
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
-    <link rel="stylesheet" type="text/css" href="../_static/css/score.css?v=bb63a8e1" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/score.css?v=415257cb" />
     <link rel="stylesheet" type="text/css" href="../_static/css/score_needs.css?v=82a1844f" />
     <link rel="stylesheet" type="text/css" href="../_static/css/score_design.css?v=8048e6ee" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-needs/modern.css?v=803738c0" />
   
@@ -77,7 +77,7 @@
     <link rel="prev" title="[Module Name] Security Package Formal Review Report" href="../module/security_mgt/module_security_package_fdr.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
+  <meta name="docsearch:version" content="0.0.0" />
   
     
     <script src="../_static/searchtools.js"></script>
@@ -175,7 +175,7 @@
 
 <li class="nav-item ">
   <a class="nav-link nav-internal" href="../features/index.html">
-    Features
+    [Feature Name]
   </a>
 </li>
 
@@ -355,7 +355,7 @@
 
 <li class="nav-item ">
   <a class="nav-link nav-internal" href="../features/index.html">
-    Features
+    [Feature Name]
   </a>
 </li>
 
@@ -529,12 +529,8 @@
                   
   <section id="verification-report">
 <h1>Verification Report<a class="headerlink" href="#verification-report" title="Link to this heading">#</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Document header</p>
-</div>
-<div class="need_container docutils container" id="SNCB-639c1305">
-<div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_document table" id="doc__mod_temp_module_name_verification_report">
+<div class="need_container docutils container" id="SNCB-414b9116">
+<div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_document table" id="doc__mod_temp_verification_report">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
 <div class="line"><span><span class="needs_title"><span class="needs_data">[Module Name] Verification Report</span></span></span></div>
@@ -561,10 +557,10 @@
 </td>
 <td class="meta" colspan="3"></td>
 </tr>
-<tr class="content row-odd"><td class="content" colspan="6"></td>
+<tr class="content row-odd"><td class="content" colspan="6"><p>Verification report for the [Module Name] module. This report is generated based on the module verification plan and the module verification work product (<a class="external_link reference external" href="https://eclipse-score.github.io/process_description//main/process_areas/verification/verification_workproducts.html#wp__verification_module_ver_report">wp__verification_module_ver_report</a>), and covers all components of the module.</p></td>
 </tr>
 <tr class="footer row-even"><td class="footer_left" colspan="2"><div class="needs_footer_left line-block">
-<div class="line"><span><span class="needs-id"><a class="reference internal" href="#doc__mod_temp_module_name_verification_report" title="doc__mod_temp_module_name_verification_report">doc__mod_temp_module_name_verification_report</a></span></span></div>
+<div class="line"><span><span class="needs-id"><a class="reference internal" href="#doc__mod_temp_verification_report" title="doc__mod_temp_verification_report">doc__mod_temp_verification_report</a></span></span></div>
 </div>
 </td>
 <td class="footer" colspan="2"><div class="needs_footer line-block">
@@ -579,84 +575,103 @@
 </div>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>The above directive must be updated according to your Module.</p>
+<p>The verification report is automatically generated by a tool based on the code block above (see <a class="reference external" href="https://github.com/eclipse-score/docs-as-code/blob/main/src/needs_templates/module_verification_report.need">module_verification_report.need</a>). It contains all information required for module verification, is based on the module verification plan and the module verification work product (<a class="external_link reference external" href="https://eclipse-score.github.io/process_description//main/process_areas/verification/verification_workproducts.html#wp__verification_module_ver_report">wp__verification_module_ver_report</a>), and covers all components of the module.</p>
+<p>When this template is used in a module, replace the placeholder directive above with a module-specific directive. The following example shows the required structure; adapt its values to your module as described below.</p>
 <ul class="simple">
-<li><p>Modify <code class="docutils literal notranslate"><span class="pre">Your</span> <span class="pre">Module</span> <span class="pre">Name</span></code> to be your Module Name</p></li>
-<li><p>Modify <code class="docutils literal notranslate"><span class="pre">id</span></code> to be your Module Name in upper snake case preceded by <code class="docutils literal notranslate"><span class="pre">doc_</span></code> and succeeded by <code class="docutils literal notranslate"><span class="pre">verification_report</span></code></p></li>
+<li><p>Modify <code class="docutils literal notranslate"><span class="pre">module</span> <span class="pre">pretty</span> <span class="pre">name</span></code> to be your Module Name</p></li>
+<li><p>Modify <code class="docutils literal notranslate"><span class="pre">module</span> <span class="pre">formal</span> <span class="pre">name</span></code> to be your Module Name in lower case</p></li>
 <li><p>Adjust <code class="docutils literal notranslate"><span class="pre">status</span></code> to be <code class="docutils literal notranslate"><span class="pre">valid</span></code></p></li>
 <li><p>Adjust <code class="docutils literal notranslate"><span class="pre">safety</span></code> and <code class="docutils literal notranslate"><span class="pre">tags</span></code> according to your needs</p></li>
 </ul>
 </div>
-<p>This verification report is based on the <a class="external_link reference external" href="https://eclipse-score.github.io/process_description//main/process_areas/verification/guidance/verification_plan_template.html#gd_temp__verification_plan">gd_temp__verification_plan</a>.
-It covers all the components of the above stated module.</p>
-<p>Verification Report contains:</p>
-<p><strong>1. Verification Coverage</strong></p>
-<dl class="simple">
-<dt><strong>1.1. on Requirements</strong></dt><dd><ul class="simple">
-<li><p>Lists of component requirements (incl. AoU satisfied by the component) tested by which test case, passed/failed and completeness verdict
-(this shall be generated by tools and accompanied by progress charts to be usable also for project steering)</p></li>
-<li><p>For external component Assumptions of Use: coverage by platform safety manual or feature/components incl. test case, passed/failed and completeness verdict</p></li>
-<li><p>This is split in a list of QM requirements tested and a separate list of tests for ASIL rated requirements.</p></li>
-<li><p>List of component requirements (ASIL rated) linked to inspection checklist and verdict (derived from PR export)</p></li>
-</ul>
-</dd>
-<dt><strong>1.2. on Architecture</strong></dt><dd><ul class="simple">
-<li><p>List of component architecture tags tested by which test case, passed/failed and completeness verdict
-(this shall be generated by tools and accompanied by progress charts to be usable also for project steering)</p></li>
-<li><p>This is split in a list of QM components tested and a separate list of tests for ASIL rated components.</p></li>
-<li><p>List of component architecture tags (ASIL rated) linked to inspection checklist and verdict (derived from PR export)</p></li>
-</ul>
-</dd>
-<dt><strong>1.3. on Detailed Design</strong></dt><dd><ul class="simple">
-<li><p>List of detailed design tags tested by which test case, passed/failed and completeness verdict
-(this shall be generated by tools and accompanied by progress charts to be usable also for project steering)</p></li>
-<li><p>This is split in a list of QM components tested and a separate list of tests for ASIL rated components.</p></li>
-<li><p>List of detailed design tags (ASIL rated) linked to inspection checklist and verdict (derived from PR export)</p></li>
-<li><p>The lists may also contain other verification methods like “Analysis” - process tbd</p></li>
-</ul>
-</dd>
-<dt><strong>2. DFA Report</strong></dt><dd><ul class="simple">
-<li><p>List of the performed component DFA, pass/fail with open mitigations</p></li>
-</ul>
-</dd>
-<dt><strong>3. Safety Analysis Report</strong></dt><dd><ul class="simple">
-<li><p>List of the performed component Safety Analysis, pass/fail with open mitigations</p></li>
-</ul>
-</dd>
-</dl>
-<p><strong>4. Unit Verification Coverage</strong></p>
-<dl class="simple">
-<dt><strong>4.1. Structural Coverage</strong></dt><dd><ul class="simple">
-<li><p>List of the units with C0(line) and C1(branch) coverage absolute and percentage
-(this shall be generated by tools and accompanied by progress charts to be usable also for project steering)</p></li>
-<li><p>List includes a column for the safety rating of each unit.</p></li>
-</ul>
-</dd>
-<dt><strong>4.2. Static Code Analysis</strong></dt><dd><ul class="simple">
-<li><p>List of the units with compiler warning numbers and coding rule violation numbers
-(this shall be generated by tools and accompanied by progress charts to be usable also for project steering)</p></li>
-<li><p>List includes a column for the safety rating of each unit.</p></li>
-</ul>
-</dd>
-<dt><strong>4.3. Manual Code Inspection</strong></dt><dd><ul class="simple">
-<li><p>List of components (ASIL rated) linked to inspection checklist and verdict (derived from PR export)</p></li>
-</ul>
-</dd>
-<dt><strong>5. Software component qualification verification report</strong></dt><dd><ul class="simple">
-<li><p>Contains the needed verification results if for some components a qualification of pre-developed SW is performed.</p></li>
-</ul>
-</dd>
-<dt><strong>6. Test results</strong></dt><dd><ul class="simple">
-<li><p>Test result per test case with status passed/failed/not_run</p></li>
-</ul>
-</dd>
-<dt><strong>7. Test logs</strong></dt><dd><ul class="simple">
-<li><p>Test log per test case with status passed/failed/not_run</p></li>
-</ul>
-</dd>
-</dl>
-<p><strong>Note1:</strong> The verification report is valid for the module version tagged together with the report</p>
-<p><strong>Note2:</strong> All the above lists are generated automatically</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">document</span><span class="p">::</span> {module pretty name} Module Verification Report
+   <span class="nc">:id:</span> doc__{module formal name = same as in ..mod}_verification_report
+   <span class="nc">:post_template:</span> module_verification_report
+   <span class="nc">:status:</span> valid
+   <span class="nc">:safety:</span> QM
+   <span class="nc">:security:</span> NO
+   <span class="nc">:realizes:</span> wp__verification_module_ver_report
+   <span class="nc">:version:</span> 1
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>An possible example for a generated verification report is shown below and might contain the following parts, which are described in the following sections and is based on the <a class="external_link reference external" href="https://eclipse-score.github.io/process_description//main/process_areas/verification/guidance/verification_plan_template.html#gd_temp__verification_plan">gd_temp__verification_plan</a>. This description can be deleted in a real module, but is kept here in the module template for documentation purposes.</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="gs">**1. Verification Coverage**</span>
+
+<span class="gs">**1.1. on Requirements**</span>
+       - Lists of component requirements (incl. AoU satisfied by the component) tested by which test
+         case, passed/failed and completeness verdict
+       <span class="m">-</span> (this shall be generated by tools and accompanied by progress charts to be usable also for
+         project steering)
+       <span class="m">-</span> For external component Assumptions of Use: coverage by platform safety manual or
+         feature/components incl. test case, passed/failed and completeness verdict
+       <span class="m">-</span> This is split in a list of QM requirements tested and a separate list of tests for ASIL
+         rated requirements.
+       <span class="m">-</span> List of component requirements (ASIL rated) linked to inspection checklist and verdict
+         (derived from PR export)
+
+<span class="gs">**1.2. on Architecture**</span>
+       - List of component architecture tags tested by which test case, passed/failed and completeness
+         verdict
+       <span class="m">-</span> (this shall be generated by tools and accompanied by progress charts to be usable also for
+         project steering)
+       <span class="m">-</span> This is split in a list of QM components tested and a separate list of tests for ASIL rated
+         components.
+       <span class="m">-</span> List of component architecture tags (ASIL rated) linked to inspection checklist and verdict
+         (derived from PR export)
+
+<span class="gs">**1.3. on Detailed Design**</span>
+       - List of detailed design tags tested by which test case, passed/failed and completeness verdict
+       <span class="m">-</span> (this shall be generated by tools and accompanied by progress charts to be usable also for
+         project steering)
+       <span class="m">-</span> This is split in a list of QM components tested and a separate list of tests for ASIL rated
+         components.
+       <span class="m">-</span> List of detailed design tags (ASIL rated) linked to inspection checklist and verdict (derived
+         from PR export)
+       <span class="m">-</span> The lists may also contain other verification methods like &quot;Analysis&quot; - for example
+         by <span class="na">:need:</span><span class="nv">`doc__mod_temp_component_name_impl_inspection`</span>
+
+<span class="gs">**2. DFA Report**</span>
+       - List of the performed component DFA, pass/fail with open mitigations
+
+<span class="gs">**3. Safety Analysis Report**</span>
+       - List of the performed component Safety Analysis, pass/fail with open mitigations
+
+<span class="gs">**4. Unit Verification Coverage**</span>
+
+<span class="gs">**4.1. Structural Coverage**</span>
+       - List of the units with C0(line) and C1(branch) coverage absolute and percentage
+       <span class="m">-</span> (this shall be generated by tools and accompanied by progress charts to be usable also for
+         project steering)
+       <span class="m">-</span> List includes a column for the safety rating of each unit.
+
+<span class="gs">**4.2. Static Code Analysis**</span>
+       - List of the units with compiler warning numbers and coding rule violation numbers
+       <span class="m">-</span> (this shall be generated by tools and accompanied by progress charts to be usable also for
+         project steering)
+       <span class="m">-</span> List includes a column for the safety rating of each unit.
+
+<span class="gs">**4.3. Manual Code Inspection**</span>
+       - List of components (ASIL rated) linked to inspection checklist and verdict (derived from PR
+         export)
+
+<span class="gs">**5. Software component qualification verification report**</span>
+       - Contains the needed verification results if for some components a qualification of pre-developed
+         SW is performed.
+
+<span class="gs">**6. Test results**</span>
+       - Test result per test case with status passed/failed/not_run
+
+<span class="gs">**7. Test logs**</span>
+       - Test log per test case with status passed/failed/not_run
+
+<span class="gs">**Note1:**</span> The verification report is valid for the module version tagged together with the report
+
+<span class="gs">**Note2:**</span> All the above lists are generated automatically
+</pre></div>
+</div>
+</div>
 </section>
 
 
