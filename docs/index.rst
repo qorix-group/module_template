@@ -39,6 +39,14 @@ The Feature documentation covers the feature-level definition of <module name>, 
 
    features/index
 
+.. needtable::
+   :filter: docname is not None and docname.startswith("features/")
+   :style: table
+   :types: document
+   :columns: title;id;safety;security;status
+   :colwidths: 25,35,15,15,15
+   :sort: title
+
 Module Documentation
 --------------------
 
@@ -50,6 +58,13 @@ The Module documentation covers the module-level view, including architecture, s
    module/index
    verification_report/module_verification_report
 
+.. needtable::
+   :filter: docname is not None and (docname.startswith("module/") or docname.startswith("verification_report/"))
+   :style: table
+   :types: document
+   :columns: title;id;safety;security;status
+   :colwidths: 25,35,15,15,15
+   :sort: title
 
 Component Documentation
 -----------------------
@@ -60,6 +75,14 @@ The Components documentation provides detailed documentation for each individual
    :maxdepth: 1
 
    components/index
+
+.. needtable::
+   :filter: docname is not None and docname.startswith("components/")
+   :style: table
+   :types: document
+   :columns: title;id;safety;security;status
+   :colwidths: 25,35,15,15,15
+   :sort: title
 
 Architecture Modeling Example
 -----------------------------
