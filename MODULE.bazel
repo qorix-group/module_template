@@ -75,7 +75,6 @@ bazel_dep(name = "buildifier_prebuilt", version = "8.5.1.2", dev_dependency = Tr
 #docs-as-code
 bazel_dep(name = "score_docs_as_code", version = "8.3.0")
 bazel_dep(name = "score_process_description", version = "2.1.2")
-
 git_override(
     module_name = "score_process_description",
     commit = "6606668a19d995829d9dbbf53950e5fc55b977e0",
