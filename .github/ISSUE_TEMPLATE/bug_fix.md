@@ -1,3 +1,12 @@
+---
+name: Bugfix
+about: 'Issue to track a bugfix'
+title: 'Bugfix: Your bugfix title'
+labels: 'codeowner_review'
+assignees: ''
+
+---
+
 <!--
 *******************************************************************************
 Copyright (c) 2026 Contributors to the Eclipse Foundation
@@ -12,15 +21,6 @@ https://www.apache.org/licenses/LICENSE-2.0
 SPDX-License-Identifier: Apache-2.0
 *******************************************************************************
 -->
-
----
-name: Bugfix
-about: 'Issue to track a bugfix'
-title: 'Bugfix: Your bugfix title'
-labels: 'codeowner_review'
-assignees: ''
-
----
 
 > [!IMPORTANT]
 > Make sure to link this issue with the PR for your bugfix.
