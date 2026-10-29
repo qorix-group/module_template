@@ -29,6 +29,6 @@ SPDX-License-Identifier: Apache-2.0
 
 > [!IMPORTANT]
 > Please replace `[ISSUE-NUMBER]` with the issue-number that tracks this bug fix. If there is no such
-> ticket yet, create one via [this issue template](../ISSUE_TEMPLATE/new?template=bug_fix.md).
+> ticket yet, create one via [this issue template](../issues/new?template=bug_fix.md).
 
 closes [ISSUE-NUMBER] (bugfix ticket)
