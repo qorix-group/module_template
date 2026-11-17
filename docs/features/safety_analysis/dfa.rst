@@ -194,9 +194,9 @@ For all identified applicable failure initiators, the DFA is performed in the fo
        :id: feat_saf_dfa__<Feature>__<Element descriptor>
        :failure_id: <ID from DFA failure initiators :need:`gd_guidl__dfa_failure_initiators`>
        :failure_effect: "description of failure effect of the failure initiator on the element"
-       :safety_relevant: <yes|no>
+       :safety_relevant (optional): <yes|no>
        :mitigated_by: <ID from Feature Requirement | ID from AoU Feature Requirement>
-       :mitigation_issue: <ID from Issue Tracker>
+       :mitigation_issue (optional): <ID from Issue Tracker>
        :sufficient: <yes|no>
        :status: <valid|invalid>
 
@@ -211,3 +211,4 @@ For all identified applicable failure initiators, the DFA is performed in the fo
 
     - The above "code-block" directive must be updated
     - Fill in all the needed information in the <brackets>
+      
