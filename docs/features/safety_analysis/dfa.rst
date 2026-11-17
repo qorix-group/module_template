@@ -211,4 +211,3 @@ For all identified applicable failure initiators, the DFA is performed in the fo
 
     - The above "code-block" directive must be updated
     - Fill in all the needed information in the <brackets>
-      
